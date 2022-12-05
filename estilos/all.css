@@ -60,6 +60,11 @@
         width: 38px;
     }
 
+    .imagens-footer img:hover {
+        transform: translate(-10px, -3px);
+        transition: .3s;
+    } 
+
 }
 
 /* Big devices */
@@ -98,5 +103,10 @@
     .imagens-footer img {
         width: 40px;
     }
+
+    .imagens-footer img:hover {
+        transform: translate(-10px, -3px);
+        transition: .3s;
+    } 
     
 }
