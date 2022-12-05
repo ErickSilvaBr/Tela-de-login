@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .formulario {
+        width: 660px;
+    }
+
+    .checkbox-forgot {
+        font-size: 16px;
+    }
+
+    .nao-tem-conta p {
+        font-size: 1rem;
+    }
+
+    .logar-com p {
+        font-size: 1.1rem;
+    }
+
+    .imagens-footer img {
+        width: 38px;
+    }
+    
+}
+
+/* Laptop */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .formulario {
+        width: 500px;
+        margin-left: 15rem;
+        border-radius: 10;
+
+    }
+
+    .imagem {
+        display: block;
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+
+    .imagem img {
+        width: 500px;
+    }
+
+    .checkbox-forgot {
+        font-size: 16px;
+    }
+
+    .nao-tem-conta p {
+        font-size: 1rem;
+    }
+
+    .logar-com p {
+        font-size: 1.1rem;
+    }
+
+    .imagens-footer img {
+        width: 38px;
+    }
+
+}
+
+/* Big devices */
+@media screen and (min-width: 1200px) {
+
+    .formulario {
+        width: 500px;
+        height: 90vh;
+        margin-left: 20rem;
+        border-radius: 10;
+
+    }
+
+    .imagem {
+        display: block;
+        margin-top: 6.5rem;
+        margin-left: 8rem;
+    }
+
+    .imagem img {
+        width: 500px;
+    }
+
+    .checkbox-forgot {
+        font-size: 16px;
+    }
+
+    .nao-tem-conta p {
+        font-size: 1rem;
+    }
+
+    .logar-com p {
+        font-size: 1.1rem;
+    }
+
+    .imagens-footer img {
+        width: 40px;
+    }
+    
+}
