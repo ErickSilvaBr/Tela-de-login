@@ -5,6 +5,8 @@
 
     .formulario {
         width: 660px;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.507);
+
     }
 
     .checkbox-forgot {
@@ -27,10 +29,13 @@
 
 /* Laptop */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+
     .formulario {
         width: 500px;
         margin-left: 15rem;
         border-radius: 10;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.507);
+
 
 
     }
@@ -71,11 +76,13 @@
 /* Big devices */
 @media screen and (min-width: 1200px) {
 
+
     .formulario {
         width: 500px;
         height: 90vh;
         margin-left: 20rem;
         border-radius: 10px;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.507);
 
 
     }
