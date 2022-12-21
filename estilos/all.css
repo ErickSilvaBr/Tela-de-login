@@ -111,6 +111,8 @@
 
     .imagens-footer img {
         width: 40px;
+        transition-timing-function: ease;
+        transition-duration: .3s;
     }
 
     .imagens-footer img:hover {
